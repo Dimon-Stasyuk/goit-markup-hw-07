@@ -52,9 +52,6 @@
     align-items: center;
     display: flex;
     margin-right: 50px;
-  }
-
-  &__mail-link {
     color: var(--secondary-color);
   }
 
@@ -104,12 +101,7 @@
   color: var(--accent-color);
 }
 
-.adress .mail-link {
-  display: block;
-  margin-bottom: 9px;
-}
-
-.phone-link {
+.phone_link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

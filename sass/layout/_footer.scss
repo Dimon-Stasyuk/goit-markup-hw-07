@@ -9,14 +9,6 @@
   align-items: baseline;
 }
 
-.address-name {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--color-white);
-  margin-bottom: 9px;
-}
-
 .footer-social-list-icon {
   fill: var(--color-white);
 }
@@ -46,24 +38,6 @@
   margin-right: 10px;
 }
 
-.adress {
-  font-style: normal;
-  margin-top: 20px;
-}
-
-.adress .phone-link {
-  display: block;
-}
-
-.mail-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .sicial-title {
   font-family: Roboto;
   font-weight: 700;
@@ -76,76 +50,4 @@
 
 .social-links-container {
   margin-left: 72px;
-}
-
-.e-mail-input-container {
-  margin-left: 93px;
-}
-
-.e-mail-input-title {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--color-white);
-  margin-bottom: 20px;
-}
-
-.e-mail-input {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: #2f303a;
-  outline: none;
-  width: 358px;
-  padding: 15px 16px;
-  color: var(--color-white);
-}
-
-.e-mail-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.e-mail-input-btn {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  display: flex;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  margin-left: 12px;
-  padding: 10px 0 10px 29px;
-  border: none;
-  min-width: 200px;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.e-mail-input-btn:hover {
-  background: #188ce8;
-  cursor: pointer;
-}
-
-.e-mail-input-wraper {
-  position: relative;
-}
-
-.e-mail-input-icon {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
-  right: 28px;
-}
-
-.e-mail-input-form {
-  display: flex;
-  align-items: center;
 }
