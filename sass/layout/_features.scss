@@ -16,15 +16,6 @@
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.svg-container {
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -39,4 +30,13 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+.svg-container {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
